@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 import './index.css'; 
 import App from './containers/App';
 import 'tachyons';
-import registerServiceWorker from './registerServiceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 
 
 
