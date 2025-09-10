@@ -1,31 +1,37 @@
-{
-  "name": "robofriends",
-  "private": true,
-  "version": "0.0.0",
+"name": "robofriends",
+  "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://mdipasquale315.github.io/Robofriends",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "predeploy": "npm run dist",
-    "deploy": "gh-pages -b main -d dist",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+=======
+  "homepage": "https://mdipasquale315.github.io/robofriends",
+>>>>>>> b816f8b08641e493f1b206254875207c18b207aa
+  "private": true,
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "tachyons": "^4.12.0"
+    "gh-pages": "^6.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "tachyons": "^4.12.0",
+    "vite": "^7.1.5"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.33.0",
-    "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.7",
-    "@vitejs/plugin-react": "^5.0.0",
-    "eslint": "^9.33.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0",
-    "vite": "^7.1.2"
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
